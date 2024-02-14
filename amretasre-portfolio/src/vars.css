@@ -1,0 +1,51 @@
+/* Variables file for css */
+
+:root {
+    /* colours */
+
+    --color-text: #000;
+    /* Blue */
+    /* --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d; */
+
+    /* purple */
+    /* --color-primary: #9737A2;
+    --color-secondary: #782C81;
+    --color-dark: #3D1242;
+    --color-bg: #5C1864; */
+
+    /* Pastel */
+    /* --color-primary: #bce784;
+    --color-secondary: #525174;
+    --color-dark: #513b56;
+    --color-bg: #348aa7; FFCF96; */
+
+    /* Bubble gum */
+    /* --color-primary: #CDFADB;
+    --color-secondary: #F6FDC3;
+    --color-dark: #FF8080;
+    --color-bg: #CDFADB; */
+
+    /* Green */
+    /* --color-primary: #C6DCBA;
+    --color-secondary: #BBC3A4;
+    --color-dark: #B3A398;
+    --color-bg: #D7E4C0; */
+
+    /*  */
+    /* --color-primary: #AAD9BB;
+    --color-secondary: #D5F0C1;
+    --color-dark: #80BCBD;
+    --color-bg: #F9F7C9; */
+
+    --color-primary: #AC87C5;
+    --color-secondary: #E0AED0;
+    --color-dark: #AC87C5;
+    --color-bg: #FFE5E5;
+
+    /* Fonts */
+    --font-dmsans: "rubik";
+
+}

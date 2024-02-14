@@ -1,0 +1,24 @@
+[
+    {
+        "school": "Northeastern University",
+        "degree": "Masters in Information Systems",
+        "startDate": "Sept, 2022",
+        "endDate": "May, 2024",
+        "courses": [
+            "Network Structures and Cloud Computing",
+            "Advance Big Data Indexing and Methods",
+            "Design Patterns",
+            "Concepts of Object Oriented Design",
+            "Program Structure and Algorithms",
+            "Data Management and Database Design"
+        ],
+        "imageSrc": "education/northeastern-icon-2.png"
+    },
+    {
+        "school": "SRM Institute of Science and Technololgy",
+        "degree": "Bachelors in Electronics and Communication Engineering",
+        "startDate": "July, 2016",
+        "endDate": "May, 2020",
+        "imageSrc": "education/srm-ist-icon.png"
+    }
+]

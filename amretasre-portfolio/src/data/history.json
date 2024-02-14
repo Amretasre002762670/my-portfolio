@@ -1,0 +1,39 @@
+[
+  {
+    "role": "Student Assistant",
+    "organisation": "New York State Office ITS",
+    "startDate": "May, 2023",
+    "endDate": "Aug, 2023",
+    "experiences": [
+      "Worked on developing custom HTML web components in JavaScript.", 
+      "Individually developed a command line application to create the base project structure using Node JS."],
+    "imageSrc": "history/nygov-logo.png"
+  },
+  {
+    "role": "Programmer Analyst",
+    "organisation": "Cognizant",
+    "startDate": "Aug, 2020",
+    "endDate": "July, 2022",
+    "experiences": [
+    "Front-end development, enhancements, and defect fixing.",
+    "Unit test case development and maintaining 95% coverage.",
+    "Performing code quality reviews using SONAR, Synk and ESLINT.",
+    "Health monitoring leveraging AWS monitoring services.",
+    "Involved in CI/CD development and execution.", 
+    "Responsible for deployment in lower environments.",
+    "Integration REST API and Front end.",
+    "Scrum team member.",
+    "Guide and train the freshers"],
+    "imageSrc": "history/Cognizant.jpeg"
+  },
+  {
+    "role": "Intern",
+    "organisation": "Cognizant",
+    "startDate": "Jan, 2020",
+    "endDate": "May, 2020",
+    "experiences": [
+      "Trained in MERN stack and CI/CD tools & technologies"
+    ],
+    "imageSrc": "history/Cognizant.jpeg"
+  }
+]
