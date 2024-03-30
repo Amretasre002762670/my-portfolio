@@ -6,6 +6,8 @@
     "endDate": "Aug, 2023",
     "experiences": [
       "Worked on developing custom HTML web components in JavaScript.", 
+      "Developed components specifically tailored to digitize forms and enhance digital form functionality",
+      "Implemented modern responsive design techniques, prioritizing accessibility for users with disabilities.",
       "Individually developed a command line application to create the base project structure using Node JS."],
     "imageSrc": "history/nygov-logo.png"
   },
@@ -16,6 +18,7 @@
     "endDate": "July, 2022",
     "experiences": [
     "Front-end development, enhancements, and defect fixing.",
+    "Conducted rigorous code quality reviews to sustain 100% coding standards.",
     "Unit test case development and maintaining 95% coverage.",
     "Performing code quality reviews using SONAR, Synk and ESLINT.",
     "Health monitoring leveraging AWS monitoring services.",
