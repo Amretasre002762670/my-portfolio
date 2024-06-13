@@ -6,20 +6,21 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: stretch;
   padding-top: 61px;
   z-index: 2;
   /* margin: 0 10%; */
-  background-color: #FFE5E5;
+  background-color: var(--color-bg);
 }
 
 .title {
-  font-size: 30px;
+  font-size:17px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
   margin: 0 10%;
   padding: 10px;
+  /* flex-grow: 2; */
 }
 
 .selectedMenuItem {

@@ -3,6 +3,10 @@
 .container {
   position: relative;
   background-color: var(--color-primary);
+  /* background-image: url('assets/about/bg-image-4.svg'); */
+  /* background-size: 2800px;  */
+  /* background-position: center;  */
+  /* background-repeat: no-repeat; */
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
@@ -25,12 +29,37 @@
   align-items: center;
 }
 
+/* .aboutImage {
+  width: 35%;
+} */
+
 .aboutImage {
   width: 35%;
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .aboutItems {
-  color: var(--color-text);
+  /* color: linear-gradient(
+    90deg,
+    var(--color-text) 0%,
+    var(--color-text-secondary) 100%
+  );; */
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -51,10 +80,14 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
+  color: var(--color-text);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .aboutItem:hover {
   background-size: 100% 100%;
+  /* color: var(--color-text); */
 }
 
 .aboutItem h3 {

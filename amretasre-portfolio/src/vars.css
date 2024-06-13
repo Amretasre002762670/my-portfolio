@@ -4,6 +4,8 @@
     /* colours */
 
     --color-text: #000;
+    --color-text-secondary: #e4decd;
+
     /* Blue */
     /* --color-primary: #576cbc;
     --color-secondary: #19376d;
@@ -40,10 +42,42 @@
     --color-dark: #80BCBD;
     --color-bg: #F9F7C9; */
 
-    --color-primary: #AC87C5;
+    /* --color-primary: #AC87C5;
     --color-secondary: #E0AED0;
     --color-dark: #AC87C5;
-    --color-bg: #FFE5E5;
+    --color-bg: #FFE5E5; */
+
+    /* --color-primary: #5cbdb9;
+    --color-secondary: #ebf6f5;
+    --color-dark: #5cbdb9;
+    --color-bg: #fbe3e8; */
+
+    /* --color-primary: #ffaaab;
+    --color-secondary: #feb300;
+    --color-dark: #ff5e6c;
+    --color-bg: #fff5d7; */
+
+    /* --color-primary: #F7882F;
+    --color-secondary: #F7C331;
+    --color-dark: #6B7A8F;
+    --color-bg: #DCC7AA; */
+
+    /* --color-primary: #1561ad;
+    --color-secondary: #1c77ac;
+    --color-dark: #fc5226;
+    --color-bg: #1dbab4; */
+
+    /* --color-primary: #acb7ae;
+    --color-secondary: #c2b490;
+    --color-dark: #82716e;
+    --color-bg: #e4decd; */
+
+    --color-primary: #acb7ae;
+    /* --color-primary: #f6f5f3; */
+    --color-secondary: #e4decd;
+    --color-dark: #3d3d3f;
+    --color-bg: #f9f8fd;
+
 
     /* Fonts */
     --font-dmsans: "rubik";
