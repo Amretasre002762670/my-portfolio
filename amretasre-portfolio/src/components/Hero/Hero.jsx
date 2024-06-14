@@ -13,9 +13,14 @@ export const Hero = () => {
         Having industry working experience in enterprise applications development, knowledgeable in front-end development, testing, troubleshooting, agile, and DevOps processes. Proficient in JavaScript technologies including ReactJS, NodeJS, ExpressJS as well as Java technologies. 
         Effective team player and self-driven in effectively managing deliverables 
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.buttonContainer}>
+          <a href="mailto:rengarajanthiruven.a@northeastern.edu" className={styles.contactBtn}>
+            Contact Me
+          </a>
+          <a href={getImageUrl("cv/Amretasre-resume.pdf")} download className={styles.downloadBtn}>
+            Download CV
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/Amreta-short.png")}
