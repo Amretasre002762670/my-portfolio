@@ -55,10 +55,7 @@
     "title": "Typescript",
     "imageSrc": "skills/Typescript-1.png"
   },
-  {
-    "title": "ElasticSearch",
-    "imageSrc": "skills/elasticsearch-2.png"
-  },
+  
   {
     "title": "Pulumi",
     "imageSrc": "skills/pulumi-2.png"
@@ -94,5 +91,9 @@
   {
     "title": "Agile",
     "imageSrc": "skills/agile-2.png"
+  },
+  {
+    "title": "ElasticSearch",
+    "imageSrc": "skills/elasticsearch-2.png"
   }
 ]

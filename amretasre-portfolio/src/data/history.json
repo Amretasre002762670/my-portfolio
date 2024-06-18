@@ -1,32 +1,29 @@
 [
   {
-    "role": "Student Assistant",
+    "role": "Frontend Developer",
     "organisation": "New York State Office ITS",
     "startDate": "May, 2023",
     "endDate": "Aug, 2023",
     "experiences": [
-      "Worked on developing custom HTML web components in JavaScript.", 
-      "Developed components specifically tailored to digitize forms and enhance digital form functionality",
-      "Implemented modern responsive design techniques, prioritizing accessibility for users with disabilities.",
-      "Individually developed a command line application to create the base project structure using Node JS."],
+      "Designed and developed custom web components, including form tables and tooltips, using JavaScript to digitize tax forms ", 
+      "Implemented ARIA landmarks, keyboard navigation, and semantic HTML to prioritize accessibility for users with disabilities, and performed testing using accessibility tools, resulting in a 10% increase in user engagement",
+      "Engineered a command-line application individually to automate the creation of foundational project structures for developers focusing on form development, significantly reducing development time"],
     "imageSrc": "history/nygov-logo.png"
   },
   {
-    "role": "Programmer Analyst",
+    "role": "Full Stack Developer",
     "organisation": "Cognizant",
     "startDate": "Aug, 2020",
     "endDate": "July, 2022",
     "experiences": [
-    "Front-end development, enhancements, and defect fixing.",
-    "Conducted rigorous code quality reviews to sustain 100% coding standards.",
-    "Unit test case development and maintaining 95% coverage.",
-    "Performing code quality reviews using SONAR, Synk and ESLINT.",
-    "Health monitoring leveraging AWS monitoring services.",
-    "Involved in CI/CD development and execution.", 
-    "Responsible for deployment in lower environments.",
-    "Integration REST API and Front end.",
-    "Scrum team member.",
-    "Guide and train the freshers"],
+    "Employed ReactJS for lazy loading while developing frontend solutions for three client dashboards, emphasizing minimized DOM manipulation \n for enhanced performance and yielding a 10% increase in user interaction and improved components response time",
+    "Enforced 100% coding standards with detailed code quality reviews using ESLint, leveraging Snyk for vulnerability detection",
+    "Evaluated component functionality and formulated rigorous unit tests with Chai and Mocha, maintaining an effective 95% coverage",
+    "Integrate tests into continuous integration pipeline to automatically validate code integrations and UI releases via Gitlab CI/CD",
+    "Utilized REST API integration for efficient client-server communication, optimizing performance and minimizing latency",
+    "Participated as a Scrum member, collaborating with cross-functional teams, prioritizing tasks through Jira stories, addressing client needs effectively resulting in a 10% increase in client engagement, and documenting progress through Confluen", 
+    "Directed the training and onboarding of new team members, ensuring their smooth integration into project activities",
+    "Reviewed and cleared unused resources in AWS to eliminate unnecessary overhead costs"],
     "imageSrc": "history/Cognizant.jpeg"
   },
   {
