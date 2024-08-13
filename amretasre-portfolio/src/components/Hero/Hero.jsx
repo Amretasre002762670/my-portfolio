@@ -45,21 +45,21 @@ export const Hero = () => {
           and <span className={styles.boldText}>Java</span>. A proactive team player committed to delivering top-notch results.
         </p>
         <div className={styles.iconContainer}>
-          <a href="https://www.linkedin.com/in/amretasre-rengarajan-thiruvengadam/" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+          <a href="https://www.linkedin.com/in/amretasre-rengarajan-thiruvengadam/" target="_blank" rel="noopener noreferrer" className={styles.contactIcon}>
             <img
               src={getImageUrl("icons/linkedin.png")}
               alt="LinkedIn"
               className={styles.icon}
             />
           </a>
-          <a href="mailto:rengarajanthiruven.a@northeastern.edu" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+          <a href="mailto:rengarajanthiruven.a@northeastern.edu" target="_blank" rel="noopener noreferrer" className={styles.contactIcon}>
             <img
               src={getImageUrl("icons/mail.png")}
               alt="Email"
               className={styles.icon}
             />
           </a>
-          <a href="https://github.com/Amretasre002762670" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+          <a href="https://github.com/Amretasre002762670" target="_blank" rel="noopener noreferrer" className={styles.contactIcon}>
             <img
               src={getImageUrl("icons/github.png")}
               alt="GitHub"
@@ -67,8 +67,6 @@ export const Hero = () => {
             />
           </a>
         </div>
-
-
         <div className={styles.buttonContainer}>
 
           <a href="#contact" className={styles.contactBtn}>
@@ -84,11 +82,15 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <Lottie
-        options={defaultOptions}
-        height={400}
-        width={4000}
-      />
+
+      <span className={styles.girlLottie}>
+        <Lottie
+          options={defaultOptions}
+          height={400}
+          width={600}
+        />
+      </span>
+
       {/* <img
         src={getImageUrl("hero/Amreta-short.png")}
         alt="Hero image of me"

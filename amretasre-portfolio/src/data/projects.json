@@ -1,8 +1,8 @@
 [
   {
-    "title": "Assignments API",
+    "title": "Assignments Management API",
     "imageSrc": "projects/fsd-img.jpg",
-    "description": "Created AWS-hosted, Node.js-based REST API for Assignment Management, integrated with MySQL RDS & Distributed Databases, basic implementation of Binary Large Object Storage using S3, utilizing GitHub for CI/CD tools and Pulumi for AWS network setup",
+    "description": "Created AWS-hosted, Node.js-based REST API for Assignment Management, integrated with MySQL RDS, utilizing GitHub for CI/CD tools and Pulumi for AWS network setup",
     "skills": ["Express", "Node", "AWS", "Pulumi", "Github Actions"],
     "source": "https://github.com/Amretasre002762670/webapp",
     "animationDataKey": "apiAnimation"
@@ -35,7 +35,7 @@
     "title": "Shopping Cart Application",
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Engineered a Java Servlet-based Shopping Cart Application employing the sophisticated Spring MVC architecture, incorporating the versatile JSTL, and deployed on the Tomcat Server.",
-    "skills": ["Spring Boot", "Servlets", "MVC", "JSTL", "MySQL"],
+    "skills": ["Spring Boot", "Servlets", "JSTL", "MySQL"],
     "source": "https://github.com/Amretasre002762670/Shopping_cart_app",
     "animationDataKey": "computerAnimation2"
   },

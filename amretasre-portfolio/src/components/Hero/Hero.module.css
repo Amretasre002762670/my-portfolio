@@ -76,6 +76,14 @@
   transform: scale(1.05);
 }
 
+/* .contactIcon {
+  transition: color 0.3s ease, transform 0.3s ease;
+} */
+
+.contactIcon:hover {
+  transform: scale(1.5);
+}
+
 .heroImg {
   width: 30%;
   z-index: 1;
@@ -99,6 +107,10 @@
   margin-bottom: 20px; 
 }
 
+.girlLottie {
+  display: inline;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -120,5 +132,10 @@
 
   .content {
     align-items: center;
+  }
+
+  .girlLottie {
+    display: none;
+    /* width: 40%; */
   }
 }

@@ -42,7 +42,7 @@ export const About = () => {
     }
   };
 
-  
+
 
   return (
     <section className={styles.container} id="about" ref={aboutRef}>
@@ -53,11 +53,13 @@ export const About = () => {
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         /> */}
-        <Lottie
-          options={defaultOptions}
-          height={500}
-          width={1500}
-        />
+        <span className={styles.animationIcon}>
+          <Lottie
+            options={defaultOptions}
+            height={500}
+            width={450}
+          />
+        </span>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem} >
             {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" /> */}
@@ -84,18 +86,18 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Full Stack Developer</h3>
               <p className={styles.explaination}>
-              I'm a Full Stack Developer who brings a holistic approach to web development, seamlessly combining my expertise in creating dynamic user interfaces with robust server-side logic. 
-              I thrive in delivering end-to-end solutions that meet the needs of modern, dynamic applications.
+                I'm a Full Stack Developer who brings a holistic approach to web development, seamlessly combining my expertise in creating dynamic user interfaces with robust server-side logic.
+                I thrive in delivering end-to-end solutions that meet the needs of modern, dynamic applications.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-          {/* <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" id={styles.devopsIcon} /> */}
+            {/* <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" id={styles.devopsIcon} /> */}
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Devops Engineer</h3>
               <p className={styles.explaination}>
-              I automate CI/CD pipelines for efficient software delivery and ensure scalable infrastructure. 
-              I prioritize system optimization, security, and collaborative practices for streamlined operations.
+                I automate CI/CD pipelines for efficient software delivery and ensure scalable infrastructure.
+                I prioritize system optimization, security, and collaborative practices for streamlined operations.
               </p>
             </div>
           </li>

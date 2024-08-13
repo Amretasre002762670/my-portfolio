@@ -1,7 +1,7 @@
 /* Skills.module.css */
 
 .container {
-    margin-top: 76px;
+    margin-top: 120px;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
@@ -34,7 +34,7 @@
     height: 700px;
     background-color: var(--color-primary);
     border-radius: 10px;
-    background: linear-gradient(270deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    /* background: linear-gradient(270deg, var(--color-primary) 0%, var(--color-secondary) 100%); */
     box-shadow: 0 16px 14px 0 var(--color-shadow);
     padding: 10px;
     opacity: 0;
@@ -83,4 +83,11 @@
 
 .skill img {
     max-width: 100px;
+}
+
+@media screen and (max-width: 830px) {
+
+    .container {
+        display: none;
+    } 
 }

@@ -17,11 +17,13 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <Lottie
-          options={defaultOptions}
-          height={400}
-          width={400}
-        />
+        <span className={styles.animation}>
+          <Lottie
+            options={defaultOptions}
+            height={400}
+            width={400}
+          />
+        </span>
         {/* <p>Feel free to reach out!</p> */}
       </div>
       <ul className={styles.links}>

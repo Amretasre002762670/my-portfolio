@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -56,10 +56,18 @@
   transform: scale(1.05); 
 }
 
+.animation {
+  display: inline-block;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    /* gap: 23px; */
+  }
+
+  .title {
+    font-size: 50px;
   }
 
   .text {
@@ -68,7 +76,20 @@
     align-items: center;
   }
 
-  .links {
-    align-items: center;
+  .link a {
+    font-size: 15px;
   }
+
+  .link a:hover {
+    color: var(--color-category-title); 
+    transform: scale(1.05); 
+  }
+
+  li img {
+    display: none;
+  }
+
+  /* .links {
+    align-items: flex-start;
+  } */
 }
