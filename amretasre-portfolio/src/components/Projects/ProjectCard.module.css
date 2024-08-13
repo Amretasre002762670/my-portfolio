@@ -5,9 +5,10 @@
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(270deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  box-shadow: 0 16px 14px 0 var(--color-dark);
+  box-shadow: 0 16px 14px 0 var(--color-shadow);
   padding: 18px 24px;
   max-width: 345px;
+  max-height: max-content;
 }
 
 .image {
@@ -17,6 +18,7 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  color: var(--color-dark);
 }
 
 .description {
@@ -41,6 +43,7 @@
   border-radius: 100px;
   background: var(--color-bg);
   padding: 2px 22px;
+  font-family: var(--font-cursive);
 }
 
 .links {

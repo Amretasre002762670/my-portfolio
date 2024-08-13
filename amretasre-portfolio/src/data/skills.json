@@ -1,99 +1,126 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "category": "Frontend",
+    "skills": [
+      {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+      },
+      {
+        "title": "SASS",
+        "imageSrc": "skills/sass.png"
+      },
+      {
+        "title": "Javascript",
+        "imageSrc": "skills/javascript.webp"
+      },
+      {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+      }
+    ]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "category": "Backend",
+    "skills": [
+      {
+        "title": "Node",
+        "imageSrc": "skills/node.png"
+      },
+      {
+        "title": "Express",
+        "imageSrc": "skills/express-js.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      },
+      {
+        "title": "Spring Boot",
+        "imageSrc": "skills/spring-boot.png"
+      },
+      {
+        "title": "JWT",
+        "imageSrc": "skills/jwt.png"
+      }
+    ]
   },
   {
-    "title": "SASS",
-    "imageSrc": "skills/sass.png"
-  },
-  {
-    "title": "Javascript",
-    "imageSrc": "skills/javascript.webp"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "AWS",
-    "imageSrc": "skills/aws.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "Express",
-    "imageSrc": "skills/express-js.png"
-  },
-  {
-    "title": "Jest",
-    "imageSrc": "skills/jest.png"
-  },
-  {
-    "title": "Mocha",
-    "imageSrc": "skills/mocha.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "Spring Boot",
-    "imageSrc": "skills/spring-boot.png"
-  },
-  {
-    "title": "JWT",
-    "imageSrc": "skills/jwt.png"
-  },
-  {
-    "title": "Typescript",
-    "imageSrc": "skills/Typescript-1.png"
+    "category": "CloudOps & Tools",
+    "skills": [
+      {
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
+      },
+      {
+        "title": "Pulumi",
+        "imageSrc": "skills/pulumi-2.png"
+      },
+      {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+      },
+      {
+        "title": "Agile",
+        "imageSrc": "skills/agile-2.png"
+      }
+    ]
   },
   
+  
   {
-    "title": "Pulumi",
-    "imageSrc": "skills/pulumi-2.png"
+    "category": "Databases",
+    "skills": [
+      {
+        "title": "SQL",
+        "imageSrc": "skills/mysql-1.png"
+      },
+      {
+        "title": "MongoDB",
+        "imageSrc": "skills/mongodb.png"
+      },
+      {
+        "title": "Redis",
+        "imageSrc": "skills/redis.png"
+      }
+    ]
   },
   {
-    "title": "RESTful API",
-    "imageSrc": "skills/rest-api-2.svg"
+    "category": "Testing & Analysis",
+    "skills": [
+      {
+        "title": "Jest",
+        "imageSrc": "skills/jest.png"
+      },
+      {
+        "title": "Mocha",
+        "imageSrc": "skills/mocha.png"
+      },
+      {
+        "title": "ElasticSearch",
+        "imageSrc": "skills/elasticsearch-2.png"
+      }
+    ]
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/mysql-1.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Redis",
-    "imageSrc": "skills/redis.png"
-  },
-  {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "Agile",
-    "imageSrc": "skills/agile-2.png"
-  },
-  {
-    "title": "ElasticSearch",
-    "imageSrc": "skills/elasticsearch-2.png"
+    "category": "API & GraphQL",
+    "skills": [
+      {
+        "title": "RESTful API",
+        "imageSrc": "skills/rest-api-2.svg"
+      },
+      {
+        "title": "GraphQL",
+        "imageSrc": "skills/graphql.png"
+      }
+    ]
   }
 ]

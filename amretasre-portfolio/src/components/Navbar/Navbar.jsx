@@ -26,7 +26,7 @@ export const Navbar = () => {
 
 
     return <nav ref={navbarRef} className={styles.navbar}>
-        <a href="/" className={styles.title}>Dream, Believe, Achieve.</a>
+        <a href="/" className={styles.title}>&lt;Dream, Believe and Achieve /&gt;</a>
         <div className={styles.menu}>
             <img className={styles.menuBtn} src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-btn" onClick={() => { setMenuOpen(!menuOpen) }} />
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>

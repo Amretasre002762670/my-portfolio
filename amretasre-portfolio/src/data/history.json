@@ -6,8 +6,8 @@
     "endDate": "Aug, 2023",
     "experiences": [
       "Designed and developed custom web components, including form tables and tooltips, using JavaScript to digitize tax forms ", 
-      "Implemented ARIA landmarks, keyboard navigation, and semantic HTML to prioritize accessibility for users with disabilities, and performed testing using accessibility tools, resulting in a 10% increase in user engagement",
-      "Engineered a command-line application individually to automate the creation of foundational project structures for developers focusing on form development, significantly reducing development time"],
+      "Implemented accessibility features to prioritize accessibility for users, and performed testing, resulting an increase in user engagement",
+      "Engineered a command-line application to automate the creation of foundational project structures for developers, reducing development time"],
     "imageSrc": "history/nygov-logo.png"
   },
   {
@@ -16,14 +16,15 @@
     "startDate": "Aug, 2020",
     "endDate": "July, 2022",
     "experiences": [
-    "Employed ReactJS for lazy loading while developing frontend solutions for three client dashboards, emphasizing minimized DOM manipulation \n for enhanced performance and yielding a 10% increase in user interaction and improved components response time",
-    "Enforced 100% coding standards with detailed code quality reviews using ESLint, leveraging Snyk for vulnerability detection",
-    "Evaluated component functionality and formulated rigorous unit tests with Chai and Mocha, maintaining an effective 95% coverage",
-    "Integrate tests into continuous integration pipeline to automatically validate code integrations and UI releases via Gitlab CI/CD",
-    "Utilized REST API integration for efficient client-server communication, optimizing performance and minimizing latency",
-    "Participated as a Scrum member, collaborating with cross-functional teams, prioritizing tasks through Jira stories, addressing client needs effectively resulting in a 10% increase in client engagement, and documenting progress through Confluen", 
-    "Directed the training and onboarding of new team members, ensuring their smooth integration into project activities",
-    "Reviewed and cleared unused resources in AWS to eliminate unnecessary overhead costs"],
+      "Used ReactJS for lazy loading to enhance frontend performance, increase user interaction, and improve response time",
+      "Adhered to 100% coding standards with ESLint and used Snyk for vulnerability detection",
+      "Created rigorous unit tests with Chai and Mocha, achieving 95% test coverage",
+      "Integrated tests into CI/CD pipeline with GitLab to automate code validation and UI releases",
+      "Utilized REST API for efficient client-server communication, optimizing performance and reducing latency",
+      "Collaborated in Scrum, managed tasks with Jira, improved client engagement, and documented progress with Confluence",
+      "Trained and onboarded new team members for smooth project integration",
+      "Cleaned up unused AWS resources to cut unnecessary costs"
+    ],
     "imageSrc": "history/Cognizant.jpeg"
   },
   {

@@ -14,6 +14,12 @@ export const Projects = () => {
           return <ProjectCard key={id} project={project} />;
         })}
       </div>
+      <div className={styles.buttonContainer}>
+      <a href="https://github.com/Amretasre002762670" className={styles.githubBtn}>
+            View More
+      </a>
+      </div>
+      
     </section>
   );
 };

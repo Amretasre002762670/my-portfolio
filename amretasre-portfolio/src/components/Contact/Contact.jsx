@@ -2,15 +2,30 @@ import React from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import Lottie from 'react-lottie';
+import animationData from '../../../assets/lotties/contact.json';
 
 export const Contact = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <Lottie
+          options={defaultOptions}
+          height={400}
+          width={400}
+        />
+        {/* <p>Feel free to reach out!</p> */}
       </div>
       <ul className={styles.links}>
+        <li><h3 className={styles.title}>Contact Me</h3></li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
           <a href="mailto:rengarajanthiruven.a@northeastern.edu">rengarajanthiruven.a@northeastern.edu</a>

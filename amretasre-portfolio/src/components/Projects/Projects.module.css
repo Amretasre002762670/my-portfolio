@@ -12,6 +12,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  color: var(--color-category-title);
 }
 
 .projects {
@@ -23,4 +24,27 @@
   justify-content: center;
   gap: 15px;
   width: 100%;
+}
+
+.buttonContainer{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.githubBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color-text-secondary);
+  background-color: var(--color-dark);
+  border: none;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.githubBtn:hover {
+  transform: scale(1.05); 
 }

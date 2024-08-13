@@ -31,21 +31,6 @@ export const Experience = () => {
             );
           })}
         </ul>
-        <div className={styles.skillsContainer}>
-          <h2 className={styles.title} id="skills-title">Skills</h2>
-          <div className={styles.skills}>
-            {skills.map((skill, id) => {
-              return (
-                <div key={id} className={styles.skill}>
-                  <div className={styles.skillImageContainer}>
-                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                  </div>
-                  <p>{skill.title}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
       </div>
     </section>
   );

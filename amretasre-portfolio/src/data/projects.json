@@ -4,41 +4,47 @@
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Created AWS-hosted, Node.js-based REST API for Assignment Management, integrated with MySQL RDS & Distributed Databases, basic implementation of Binary Large Object Storage using S3, utilizing GitHub for CI/CD tools and Pulumi for AWS network setup",
     "skills": ["Express", "Node", "AWS", "Pulumi", "Github Actions"],
-    "source": "https://github.com/Amretasre002762670/webapp"
+    "source": "https://github.com/Amretasre002762670/webapp",
+    "animationDataKey": "apiAnimation"
   },
   {
-    "title": "Health Insurance Restful API Development",
+    "title": "Health Insurance API Development",
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Developed a Health Insurance RESTful API using Node.js featuring parent-child joins, Elasticsearch-based search functionality, and secure authorization through Google Identity Provider and JWT.",
     "skills": ["Node", "Redis", "ElasticSearch", "OAuth2.0"],
-    "source": "https://github.com/Amretasre002762670/insurance-plan-api"
+    "source": "https://github.com/Amretasre002762670/insurance-plan-api",
+    "animationDataKey": "apiAnimation"
   },
   {
     "title": "Restaurant Management Application",
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Implemented a Java Spring Boot application utilizing DAO classes and Hibernate libraries for MySQL database communication, demonstrating expertise in MVC architecture.",
     "skills": ["Spring Boot", "MVC", "Hibernate", "MySQL"],
-    "source": "https://github.com/Amretasre002762670/Restaurant_Management_App"
+    "source": "https://github.com/Amretasre002762670/Restaurant_Management_App",
+    "animationDataKey": "apiAnimation"
   }, 
   {
     "title": "Order Management Application",
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Application built using Java Swing GUI and MySQL for the database. Incorporated Mail verification for customers placing orders. Led the team throughout the application development process.",
     "skills": ["Java Swing", "MVC", "Hibernate", "MySQL"],
-    "source": "https://github.com/Amretasre002762670/swing_app"
+    "source": "https://github.com/Amretasre002762670/swing_app",
+    "animationDataKey": "computerAnimation2"
   },
   {
     "title": "Shopping Cart Application",
     "imageSrc": "projects/fsd-img.jpg",
     "description": "Engineered a Java Servlet-based Shopping Cart Application employing the sophisticated Spring MVC architecture, incorporating the versatile JSTL, and deployed on the Tomcat Server.",
     "skills": ["Spring Boot", "Servlets", "MVC", "JSTL", "MySQL"],
-    "source": "https://github.com/Amretasre002762670/Shopping_cart_app"
+    "source": "https://github.com/Amretasre002762670/Shopping_cart_app",
+    "animationDataKey": "computerAnimation2"
   },
   {
     "title": "Travelling Salesman Problem",
     "imageSrc": "projects/fsd-img.jpg",
-    "description": "Devised a sophisticated algorithm for the TSP, incorporating the Christofides algorithm with optimization techniques like 2-opt, 3-opt, Ant Colonization, and Simulated Annealing.",
-    "skills": ["Algorithms", "OOPs", "Data Structures"],
-    "source": "https://github.com/Amretasre002762670/TSP_Christophers_Alg"
+    "description": "Devised a sophisticated algorithm for the TSP using OOP, incorporating the Christofides algorithm with optimization techniques like 2-opt, 3-opt, Ant Colonization, and Simulated Annealing.",
+    "skills": ["Algorithms", "OOPs", "Data Structures", "Java"],
+    "source": "https://github.com/Amretasre002762670/TSP_Christophers_Alg",
+    "animationDataKey": "computerAnimation2"
   }
 ]

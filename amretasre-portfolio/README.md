@@ -11,5 +11,5 @@ Currently, two official plugins are available:
 ## To start app in local
 
 ```
-npm start preview
+npm run preview
 ```

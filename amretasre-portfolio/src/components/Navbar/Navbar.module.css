@@ -15,11 +15,13 @@
 
 .title {
   font-size:17px;
-  font-weight: 600;
+  font-weight: 800;
+  font-family: var(--font-cursive);
   text-decoration: none;
   color: var(--color-text);
   margin: 0 10%;
   padding: 10px;
+  color: var(--color-dark);
   /* flex-grow: 2; */
 }
 
@@ -49,10 +51,15 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 15px;
   color: var(--color-text);
   text-decoration: none;
   
+}
+
+.menuItems a:hover {
+  color: var( --color-category-title);
+  border-bottom: 1px solid var(--color-category-title);
 }
 
 @media screen and (max-width: 830px) {

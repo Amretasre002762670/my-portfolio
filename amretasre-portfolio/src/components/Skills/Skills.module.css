@@ -1,0 +1,86 @@
+/* Skills.module.css */
+
+.container {
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-right: 10%;
+    color: var(--color-category-title);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+
+
+.skillsCategory {
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem;            */
+    width: 400px;
+    height: 700px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    background: linear-gradient(270deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    box-shadow: 0 16px 14px 0 var(--color-shadow);
+    padding: 10px;
+    opacity: 0;
+    transform: scale(0.9) rotateX(10deg);
+    transition: opacity 1.6s ease-out, transform 1.6s ease-out;
+}
+.skillsCategory.visible {
+    opacity: 1; 
+    transform: scale(1) rotateX(0);
+  }
+
+.skillsCategory:hover {
+    background-size: 100% 100%;
+    background-image: linear-gradient(90deg,
+            var(--color-primary) 0%,
+            var(--color-secondary) 100%);
+}
+
+.categoryTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    color: var(--color-dark);
+    margin-bottom: 3rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    /* Ensure skills are displayed in a vertical column */
+    gap: 2rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.skillImageContainer {
+    margin-bottom: 0.5rem;
+}
+
+.skill img {
+    max-width: 100px;
+}

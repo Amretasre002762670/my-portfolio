@@ -72,14 +72,25 @@
     --color-dark: #82716e;
     --color-bg: #e4decd; */
 
-    --color-primary: #acb7ae;
     /* --color-primary: #f6f5f3; */
+
+    /* --color-primary: #acb7ae;
     --color-secondary: #e4decd;
     --color-dark: #3d3d3f;
+    --color-bg: #f9f8fd; */
+
+    --color-primary: #e6ddd6;
+    --color-secondary: #bcbcbb;
+    --color-dark: #682bd7;
+    --color-shadow: #acb7ae;
     --color-bg: #f9f8fd;
+    --color-category-title: #5f22d9;
 
-
+    /* #902bf5 */
     /* Fonts */
     --font-dmsans: "rubik";
+    --font-cursive: 'Dancing Script Variable', cursive;
+    --font-cursive-2: 'Homemade Apple', cursive;
+    --font-handwriting: 'Dancing Script Variable', cursive;
 
 }
