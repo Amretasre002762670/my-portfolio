@@ -18,15 +18,10 @@
 }
 
 .content {
-  /* display: flex; */
   display: block;
-  /* flex-direction: row; */
-  /* justify-content: space-evenly; */
-  /* margin-top: 15px; */
 }
 
 .history {
-  /* width: 97%; */
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -49,11 +44,15 @@
   background-repeat: no-repeat;
   transition: 0.4s;
   background-color: var(--color-primary);
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-/* .historyItem:hover {
-  background-size: 0% 100%;
-} */
+.historyItem.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
 
 .historyItem img {
   width: 75px;

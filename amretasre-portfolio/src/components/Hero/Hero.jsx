@@ -44,9 +44,34 @@ export const Hero = () => {
           <span className={styles.boldText}>JavaScript (ReactJS, NodeJS, ExpressJS)</span>{" "}
           and <span className={styles.boldText}>Java</span>. A proactive team player committed to delivering top-notch results.
         </p>
+        <div className={styles.iconContainer}>
+          <a href="https://www.linkedin.com/in/amretasre-rengarajan-thiruvengadam/" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+            <img
+              src={getImageUrl("icons/linkedin.png")}
+              alt="LinkedIn"
+              className={styles.icon}
+            />
+          </a>
+          <a href="mailto:rengarajanthiruven.a@northeastern.edu" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+            <img
+              src={getImageUrl("icons/mail.png")}
+              alt="Email"
+              className={styles.icon}
+            />
+          </a>
+          <a href="https://github.com/Amretasre002762670" target="_blank" rel="noopener noreferrer" className={styles.linkedinIcon}>
+            <img
+              src={getImageUrl("icons/github.png")}
+              alt="GitHub"
+              className={styles.icon}
+            />
+          </a>
+        </div>
+
 
         <div className={styles.buttonContainer}>
-          <a href="mailto:rengarajanthiruven.a@northeastern.edu" className={styles.contactBtn}>
+
+          <a href="#contact" className={styles.contactBtn}>
             Contact Me
           </a>
           <a

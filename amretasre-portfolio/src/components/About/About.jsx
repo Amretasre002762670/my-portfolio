@@ -55,15 +55,15 @@ export const About = () => {
         /> */}
         <Lottie
           options={defaultOptions}
-          height={600}
-          width={4000}
+          height={500}
+          width={1500}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem} >
             {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" /> */}
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Frontend Developer</h3>
-              <p>
+              <p className={styles.explaination}>
                 I'm a frontend developer with experience in building responsive
                 and optimized sites
               </p>
@@ -73,7 +73,7 @@ export const About = () => {
             {/* <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" /> */}
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Backend Developer</h3>
-              <p>
+              <p className={styles.explaination}>
                 I have experience developing fast and optimised back-end systems
                 and APIs
               </p>
@@ -83,7 +83,7 @@ export const About = () => {
             {/* <img src={getImageUrl("about/fullstackIcon.png")} alt="Full Stack icon" id={styles.fullstackIcon} /> */}
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Full Stack Developer</h3>
-              <p>
+              <p className={styles.explaination}>
               I'm a Full Stack Developer who brings a holistic approach to web development, seamlessly combining my expertise in creating dynamic user interfaces with robust server-side logic. 
               I thrive in delivering end-to-end solutions that meet the needs of modern, dynamic applications.
               </p>
@@ -93,7 +93,7 @@ export const About = () => {
           {/* <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" id={styles.devopsIcon} /> */}
             <div className={styles.aboutItemText}>
               <h3 className={styles.aboutTitle}>Devops Engineer</h3>
-              <p>
+              <p className={styles.explaination}>
               I automate CI/CD pipelines for efficient software delivery and ensure scalable infrastructure. 
               I prioritize system optimization, security, and collaborative practices for streamlined operations.
               </p>

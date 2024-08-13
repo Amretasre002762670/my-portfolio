@@ -53,6 +53,10 @@
   color: var(--color-dark);
 }
 
+.explanation {
+  font-size: 15px;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
