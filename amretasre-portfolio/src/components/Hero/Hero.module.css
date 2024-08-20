@@ -71,6 +71,11 @@
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
+/* .bold {
+  font-weight: bold;
+  color: black;
+} */
+
 .contactBtn:hover,
 .downloadBtn:hover {
   transform: scale(1.05);

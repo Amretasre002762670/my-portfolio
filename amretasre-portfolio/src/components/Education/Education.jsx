@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import styles from "./Education.module.css";
 import education from "../../data/eduation.json";
@@ -7,6 +7,29 @@ import girlStudyingAnimation from "../../../assets/lotties/girl-studying.json";
 import educationAnimation from "../../../assets/lotties/graduate.json";
 
 export const Education = () => {
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(styles.visible);
+          } else {
+            entry.target.classList.remove(styles.visible);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const items = document.querySelectorAll(`.${styles.eduItem}`);
+    items.forEach((item) => observer.observe(item));
+
+    return () => {
+      items.forEach((item) => observer.unobserve(item));
+    };
+  }, []);
+
   const defaultOptions = {
     loop: true,
     autoplay: true,

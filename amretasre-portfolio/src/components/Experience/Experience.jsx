@@ -48,6 +48,8 @@ export const Experience = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add(styles.visible);
+          } else {
+            entry.target.classList.remove(styles.visible);
           }
         });
       },

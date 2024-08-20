@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/Skills/Skills";
 import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+import { Skillset } from "./components/Skillset/Skillset";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Experience />
       <Projects />
       <Skills />
+      {/* <Skillset /> */}
       <Contact />
       <ScrollToTop />
     </div>
