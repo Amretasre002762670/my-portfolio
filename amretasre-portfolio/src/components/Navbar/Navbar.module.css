@@ -31,6 +31,14 @@
   border-radius: 5px;
 }
 
+.modeButton {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--color-bg);
+  border: none;
+  /* transition: background-color 0.3s ease; */
+}
 
 .menuBtn {
   display: none;
@@ -42,6 +50,8 @@
   padding: 20px;
   /* height: 20px; */
 }
+
+
 
 .menuItems {
   display: flex;

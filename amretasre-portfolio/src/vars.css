@@ -94,3 +94,29 @@
     --font-handwriting: 'Dancing Script Variable', cursive;
 
 }
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #72757e;
+        --color-secondary: #bcbcbb;
+        --color-dark: #682bd7;
+        --color-shadow: #acb7ae;
+        --color-bg: #16161a;
+        --color-category-title: #5f22d9;
+        #00ebc7
+        #4fc4cf
+    }
+  } */
+
+  [data-theme="dark"] {
+        --color-primary: #72757e;
+        --color-secondary: #bcbcbb;
+        --color-dark: #00ebc7;
+        --color-shadow: #666363;
+        --color-bg: #16161a;
+        --color-category-title: #682bd7;
+        --color-text: #fffffe;
+        --color-text-secondary: #00214d;
+        
+}
+  
