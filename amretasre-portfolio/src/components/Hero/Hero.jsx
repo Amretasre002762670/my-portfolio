@@ -39,10 +39,10 @@ export const Hero = () => {
             /></span>
         </h1>
         <p className={styles.description}>
-          Full-stack developer with a knack for advanced web applications.
-          Experienced in enterprise-level projects, adept in both front-end and back-end technologies, and skilled in Agile and DevOps. Proficient in{" "}
-          <span className={styles.boldText}>JavaScript (ReactJS, NodeJS, ExpressJS)</span>{" "}
-          and <span className={styles.boldText}>Java</span>. A proactive team player committed to delivering top-notch results.
+        Full-Stack Developer passionate about crafting advanced web applications and seamless user experiences. 
+        Skilled in <span className={styles.boldText}>JavaScript (ReactJS, NodeJS, ExpressJS)</span>{" "}, <span className={styles.boldText}>Java</span>, and <span className={styles.boldText}>UI/UX design</span>, 
+        with expertise in Agile and DevOps. Dedicated to building intuitive, scalable, and impactful digital solutions.
+        A proactive team player committed to delivering top-notch results.
         </p>
         <div className={styles.iconContainer}>
           <a href="https://www.linkedin.com/in/amretasre-rengarajan-thiruvengadam/" target="_blank" rel="noopener noreferrer" className={styles.contactIcon}>
@@ -73,7 +73,7 @@ export const Hero = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1Y9BlBDi6PywCjsGo9IlhkFD1lOH3BM5i/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hF8DQoUjbgTL5O24PMwHwaStrAj7C8D9/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.downloadBtn}

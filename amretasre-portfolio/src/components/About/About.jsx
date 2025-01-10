@@ -61,26 +61,6 @@ export const About = () => {
           />
         </span>
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem} >
-            {/* <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" /> */}
-            <div className={styles.aboutItemText}>
-              <h3 className={styles.aboutTitle}>Frontend Developer</h3>
-              <p className={styles.explaination}>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            {/* <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" /> */}
-            <div className={styles.aboutItemText}>
-              <h3 className={styles.aboutTitle}>Backend Developer</h3>
-              <p className={styles.explaination}>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
           <li className={styles.aboutItem}>
             {/* <img src={getImageUrl("about/fullstackIcon.png")} alt="Full Stack icon" id={styles.fullstackIcon} /> */}
             <div className={styles.aboutItemText}>
@@ -91,6 +71,15 @@ export const About = () => {
               </p>
             </div>
           </li>
+          <li className={styles.aboutItem}>
+            <div className={styles.aboutItemText}>
+              <h3 className={styles.aboutTitle}>UX Designer</h3>
+              <p className={styles.explaination}>
+              As a UX Designer, I create intuitive, user-centered designs that prioritize accessibility, usability, and satisfaction, ensuring seamless experiences across all platforms.
+              </p>
+            </div>
+          </li>
+
           <li className={styles.aboutItem}>
             {/* <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" id={styles.devopsIcon} /> */}
             <div className={styles.aboutItemText}>

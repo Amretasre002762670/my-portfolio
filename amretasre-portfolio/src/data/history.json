@@ -1,5 +1,16 @@
 [
   {
+    "role": "Software Developer",
+    "organisation": "IpserLabs",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Developed a scalable quiz application using React.js and Redux, improving user engagement by 40%.", 
+      "Led cross-functional design collaboration to create accessible and pixel-perfect UIs aligned with brand guidelines",
+      "Optimized application load time by 30% and ensured compliance with WCAG 2.1 accessibility standards"],
+    "imageSrc": "history/IpserLabs.jpeg"
+  },
+  {
     "role": "Frontend Developer",
     "organisation": "New York State Office ITS",
     "startDate": "May, 2023",
